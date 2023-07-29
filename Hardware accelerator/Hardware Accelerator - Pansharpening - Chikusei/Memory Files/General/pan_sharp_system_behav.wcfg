@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_core_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pack" />
+            <top_module name="tb_core" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8742140050000fs"></ZoomStartTime>
+      <ZoomEndTime time="8742157150001fs"></ZoomEndTime>
+      <Cursor1Time time="8742195000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="105" />
+   <wvobject type="logic" fp_name="/tb_core/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_core/spp/pan_sharp/control/r_state_reg">
+      <obj_property name="ElementShortName">r_state_reg</obj_property>
+      <obj_property name="ObjectShortName">r_state_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/w_UPD">
+      <obj_property name="ElementShortName">w_UPD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_UPD[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/w_DONE_SEND">
+      <obj_property name="ElementShortName">w_DONE_SEND</obj_property>
+      <obj_property name="ObjectShortName">w_DONE_SEND</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/w_DONE">
+      <obj_property name="ElementShortName">w_DONE</obj_property>
+      <obj_property name="ObjectShortName">w_DONE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/m00_axis_tvalid">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/m00_axis_tlast">
+      <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/conv_ip/i_START">
+      <obj_property name="ElementShortName">i_START</obj_property>
+      <obj_property name="ObjectShortName">i_START</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/conv_ip/i_WR_DATA_FIFO">
+      <obj_property name="ElementShortName">i_WR_DATA_FIFO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_WR_DATA_FIFO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/conv_ip/o_WR_EN_MEM">
+      <obj_property name="ElementShortName">o_WR_EN_MEM</obj_property>
+      <obj_property name="ObjectShortName">o_WR_EN_MEM</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/conv_ip/o_ADDRS_READ">
+      <obj_property name="ElementShortName">o_ADDRS_READ[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ADDRS_READ[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/conv_ip/o_ADDRS_WRITE">
+      <obj_property name="ElementShortName">o_ADDRS_WRITE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ADDRS_WRITE[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/conv_ip/o_WR_DATA_CONV">
+      <obj_property name="ElementShortName">o_WR_DATA_CONV[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_WR_DATA_CONV[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_START">
+      <obj_property name="ElementShortName">i_START</obj_property>
+      <obj_property name="ObjectShortName">i_START</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_U">
+      <obj_property name="ElementShortName">i_U[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_U[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_DT">
+      <obj_property name="ElementShortName">i_DT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_DT[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_REGTERM">
+      <obj_property name="ElementShortName">i_REGTERM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_REGTERM[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_LMB">
+      <obj_property name="ElementShortName">i_LMB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_LMB[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_ALPHA">
+      <obj_property name="ElementShortName">i_ALPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ALPHA[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_PANTERM">
+      <obj_property name="ElementShortName">i_PANTERM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_PANTERM[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_MU">
+      <obj_property name="ElementShortName">i_MU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_MU[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/i_CONVOL">
+      <obj_property name="ElementShortName">i_CONVOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_CONVOL[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/fusion/o_UPD">
+      <obj_property name="ElementShortName">o_UPD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_UPD[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_0/i_START">
+      <obj_property name="ElementShortName">i_START</obj_property>
+      <obj_property name="ObjectShortName">i_START</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_0/o_DONE">
+      <obj_property name="ElementShortName">o_DONE</obj_property>
+      <obj_property name="ObjectShortName">o_DONE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_0/i_U_0">
+      <obj_property name="ElementShortName">i_U_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_U_0[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_0/i_U_1">
+      <obj_property name="ElementShortName">i_U_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_U_1[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_0/i_REGTERM">
+      <obj_property name="ElementShortName">i_REGTERM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_REGTERM[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_0/i_WEIGHT">
+      <obj_property name="ElementShortName">i_WEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_WEIGHT[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_0/o_REGTERM">
+      <obj_property name="ElementShortName">o_REGTERM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_REGTERM[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_1/i_START">
+      <obj_property name="ElementShortName">i_START</obj_property>
+      <obj_property name="ObjectShortName">i_START</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_1/o_DONE">
+      <obj_property name="ElementShortName">o_DONE</obj_property>
+      <obj_property name="ObjectShortName">o_DONE</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_1/i_U_0">
+      <obj_property name="ElementShortName">i_U_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_U_0[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_1/i_U_1">
+      <obj_property name="ElementShortName">i_U_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_U_1[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_1/i_REGTERM">
+      <obj_property name="ElementShortName">i_REGTERM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_REGTERM[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_1/i_WEIGHT">
+      <obj_property name="ElementShortName">i_WEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_WEIGHT[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/regterm_1/o_REGTERM">
+      <obj_property name="ElementShortName">o_REGTERM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_REGTERM[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/w_U_ADDRS">
+      <obj_property name="ElementShortName">w_U_ADDRS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">w_U_ADDRS[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/w_U_ADDRS_UPDATE">
+      <obj_property name="ElementShortName">w_U_ADDRS_UPDATE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">w_U_ADDRS_UPDATE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider99" type="divider">
+      <obj_property name="label">REP_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_0/i_RST_n">
+      <obj_property name="ElementShortName">i_RST_n</obj_property>
+      <obj_property name="ObjectShortName">i_RST_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_0/i_PST">
+      <obj_property name="ElementShortName">i_PST</obj_property>
+      <obj_property name="ObjectShortName">i_PST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_0/i_ENA">
+      <obj_property name="ElementShortName">i_ENA</obj_property>
+      <obj_property name="ObjectShortName">i_ENA</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_0/i_DIN">
+      <obj_property name="ElementShortName">i_DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_DIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_0/o_DONE">
+      <obj_property name="ElementShortName">o_DONE</obj_property>
+      <obj_property name="ObjectShortName">o_DONE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_0/r_DATA">
+      <obj_property name="ElementShortName">r_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider100" type="divider">
+      <obj_property name="label">REP_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_1/i_RST_n">
+      <obj_property name="ElementShortName">i_RST_n</obj_property>
+      <obj_property name="ObjectShortName">i_RST_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_1/i_PST">
+      <obj_property name="ElementShortName">i_PST</obj_property>
+      <obj_property name="ObjectShortName">i_PST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_1/i_ENA">
+      <obj_property name="ElementShortName">i_ENA</obj_property>
+      <obj_property name="ObjectShortName">i_ENA</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_1/i_DIN">
+      <obj_property name="ElementShortName">i_DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_DIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_1/o_DONE">
+      <obj_property name="ElementShortName">o_DONE</obj_property>
+      <obj_property name="ObjectShortName">o_DONE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/rept_regterm_1/r_DATA">
+      <obj_property name="ElementShortName">r_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider93" type="divider">
+      <obj_property name="label">Count_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/count_pixel_pos_weights_0/i_ENA">
+      <obj_property name="ElementShortName">i_ENA</obj_property>
+      <obj_property name="ObjectShortName">i_ENA</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/count_pixel_pos_weights_0/o_DONE">
+      <obj_property name="ElementShortName">o_DONE</obj_property>
+      <obj_property name="ObjectShortName">o_DONE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/count_pixel_pos_weights_0/o_CYCLES">
+      <obj_property name="ElementShortName">o_CYCLES[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_CYCLES[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider94" type="divider">
+      <obj_property name="label">Count_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/count_pixel_pos_weights_1/i_ENA">
+      <obj_property name="ElementShortName">i_ENA</obj_property>
+      <obj_property name="ObjectShortName">i_ENA</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/count_pixel_pos_weights_1/o_DONE">
+      <obj_property name="ElementShortName">o_DONE</obj_property>
+      <obj_property name="ObjectShortName">o_DONE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/count_pixel_pos_weights_1/o_CYCLES">
+      <obj_property name="ElementShortName">o_CYCLES[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_CYCLES[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider95" type="divider">
+      <obj_property name="label">Compare_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/compare_rep_weights_0/i_ENA">
+      <obj_property name="ElementShortName">i_ENA</obj_property>
+      <obj_property name="ObjectShortName">i_ENA</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/compare_rep_weights_0/i_DIN">
+      <obj_property name="ElementShortName">i_DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_DIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/compare_rep_weights_0/o_DOUT">
+      <obj_property name="ElementShortName">o_DOUT</obj_property>
+      <obj_property name="ObjectShortName">o_DOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider96" type="divider">
+      <obj_property name="label">Compare_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/compare_rep_weights_1/i_RST_n">
+      <obj_property name="ElementShortName">i_RST_n</obj_property>
+      <obj_property name="ObjectShortName">i_RST_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/compare_rep_weights_1/i_ENA">
+      <obj_property name="ElementShortName">i_ENA</obj_property>
+      <obj_property name="ObjectShortName">i_ENA</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pan_sharp/datapath/compare_rep_weights_1/i_DIN">
+      <obj_property name="ElementShortName">i_DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_DIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pan_sharp/datapath/compare_rep_weights_1/o_DOUT">
+      <obj_property name="ElementShortName">o_DOUT</obj_property>
+      <obj_property name="ObjectShortName">o_DOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider65" type="divider">
+      <obj_property name="label">Memory_POS_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pos_weights_0/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pos_weights_0/wea">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pos_weights_0/addra">
+      <obj_property name="ElementShortName">addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pos_weights_0/dina">
+      <obj_property name="ElementShortName">dina[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider71" type="divider">
+      <obj_property name="label">Memory_W_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/weights_0/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_0/wea">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_0/addra">
+      <obj_property name="ElementShortName">addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_0/dina">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_0/douta">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider70" type="divider">
+      <obj_property name="label">Memory_POS_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/pos_weights_1/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pos_weights_1/wea">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pos_weights_1/addra">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pos_weights_1/dina">
+      <obj_property name="ElementShortName">dina[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/pos_weights_1/douta">
+      <obj_property name="ElementShortName">douta[11:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider72" type="divider">
+      <obj_property name="label">Memory_W_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core/spp/weights_1/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_1/wea">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_1/addra">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_1/dina">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core/spp/weights_1/douta">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider269" type="divider">
+      <obj_property name="label">ADDR_HOR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider270" type="divider">
+      <obj_property name="label">ADDR_VER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider293" type="divider">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider626" type="divider">
+      <obj_property name="label">Addr_ver_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider625" type="divider">
+      <obj_property name="label">Memory_addr_wr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider138" type="divider">
+      <obj_property name="label">conv_calc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider257" type="divider">
+      <obj_property name="label">DIRAC_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider258" type="divider">
+      <obj_property name="label">DIRAC_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider273" type="divider">
+      <obj_property name="label">COUNT_VER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider620" type="divider">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider278" type="divider">
+      <obj_property name="label">FUSION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider296" type="divider">
+      <obj_property name="label">MEM_TEMP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>
