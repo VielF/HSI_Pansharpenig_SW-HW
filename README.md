@@ -23,7 +23,7 @@ Fig: Diagram block of the proposed hardware accelerator based in Nonlocal Varian
 
 ## Citation
 
-If you use this code in your research, we would appreciate a citation to both the original paper:
+If you use this code in your research, we would appreciate a citation to the original paper:
 
 	@ARTICLE{viel2021pansharpening,
       author={Viel, Felipe and Parreira, Wemerson Délcio and Susin, Altamiro Amadeu and Zeferino, Cesar Albenes},
